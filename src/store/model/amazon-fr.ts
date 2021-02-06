@@ -165,12 +165,24 @@ export const AmazonFr: Store = {
     {
       brand: 'sony',
       model: 'ps5 console',
+      labels: {
+        inStock: {
+          container: '#productTitle',
+          text: ['sony playstation 5'],
+        },
+      },
       series: 'sonyps5c',
       url: 'https://www.amazon.fr/dp/B08H93ZRK9',
     },
     {
       brand: 'sony',
       model: 'ps5 digital',
+      labels: {
+        inStock: {
+          container: '#productTitle',
+          text: ['sony playstation 5'],
+        },
+      },
       series: 'sonyps5de',
       url: 'https://www.amazon.fr/dp/B08H98GVK8',
     },
@@ -178,6 +190,12 @@ export const AmazonFr: Store = {
       brand: 'microsoft',
       model: 'xbox series x',
       series: 'xboxsx',
+	  labels: {
+        inStock: {
+          container: '#productTitle',
+          text: ['Xbox Series X'],
+        },
+      },
       url: 'https://www.amazon.fr/dp/B08H93ZRLL',
     },
     {
