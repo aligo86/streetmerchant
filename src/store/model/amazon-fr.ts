@@ -167,8 +167,8 @@ export const AmazonFr: Store = {
       model: 'ps5 console',
       labels: {
         inStock: {
-          container: '#productTitle',
-          text: ['sony playstation 5'],
+          container: '#variation_edition .selection',
+          text: ['PS5'],
         },
       },
       series: 'sonyps5c',
@@ -179,8 +179,8 @@ export const AmazonFr: Store = {
       model: 'ps5 digital',
       labels: {
         inStock: {
-          container: '#productTitle',
-          text: ['sony playstation 5'],
+          container: '#variation_edition .selection',
+          text: ['PS5 - Digital Edition'],
         },
       },
       series: 'sonyps5de',
@@ -192,7 +192,7 @@ export const AmazonFr: Store = {
       series: 'xboxsx',
 	  labels: {
         inStock: {
-          container: '#productTitle',
+          container: '#variation_edition .selection',
           text: ['Xbox Series X'],
         },
       },

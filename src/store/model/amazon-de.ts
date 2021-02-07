@@ -513,8 +513,8 @@ export const AmazonDe: Store = {
         'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H93ZRK9&Quantity.1=1',
       labels: {
         inStock: {
-          container: '#productTitle',
-          text: ['sony playstation 5'],
+          container: '#variation_edition .selection',
+          text: ['PS5'],
         },
       },
       model: 'ps5 console',
@@ -527,8 +527,8 @@ export const AmazonDe: Store = {
         'https://www.amazon.de/gp/aws/cart/add.html?ASIN.1=B08H98GVK8&Quantity.1=1',
       labels: {
         inStock: {
-          container: '#productTitle',
-          text: ['sony playstation 5'],
+          container: '#variation_edition .selection',
+          text: ['PS5 - Digital Edition'],
         },
       },
       model: 'ps5 digital',

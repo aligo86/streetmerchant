@@ -173,6 +173,12 @@ export const AmazonEs: Store = {
       cartUrl:
         'https://www.amazon.es/gp/aws/cart/add.html?ASIN.1=B08KKJ37F7&Quantity.1=1',
       model: 'ps5 console',
+      labels: {
+        inStock: {
+          container: '#variation_edition .selection',
+          text: ['Consola'],
+        },
+      },
       series: 'sonyps5c',
       url: 'https://www.amazon.es/dp/B08KKJ37F7',
     },
@@ -180,6 +186,12 @@ export const AmazonEs: Store = {
       brand: 'sony',
       cartUrl:
         'https://www.amazon.es/gp/aws/cart/add.html?ASIN.1=B08KJF2D25&Quantity.1=1',
+      labels: {
+        inStock: {
+          container: '#variation_edition .selection',
+          text: ['Consola Digital'],
+        },
+      },
       model: 'ps5 digital',
       series: 'sonyps5de',
       url: 'https://www.amazon.es/dp/B08KJF2D25',
